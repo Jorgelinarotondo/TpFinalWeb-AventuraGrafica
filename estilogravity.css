@@ -1,0 +1,63 @@
+nav {
+  background-color: #473629!important;
+}
+
+nav a {
+  color: rgb(254, 193, 69) !important;
+}
+
+.container{
+  background-color: rgb(130, 154, 93);
+}
+
+.row.cards-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.col-6 {
+  flex: 0 0 calc(50% - 20px);
+}
+
+@media (max-width: 800px) {
+  .col-6 {
+    flex: 0 0 100%;
+  }
+}
+
+.paper-btn {
+  background-color: #473629 !important; /* color de fondo */
+  color: #fcd786 !important;              /* color del texto */
+  border-color: #31271f !important;    /* borde */
+}
+.paper-btn:hover {
+  background-color:rgb(206, 119, 56) !important; /* color hover */
+  color: #ffe5ae !important;              /* color del texto */
+  border-color: #31271f !important;    /* borde */
+}
+
+h1, h2{
+ color: rgb(206, 119, 56);
+ -webkit-text-stroke: 1px rgb(105, 60, 27);
+}
+h4, h6, p{
+color: #49371c;
+}
+.modal-body {
+  background-color: #362f25; /* el color que quieras */
+  padding: 14px;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+  max-width: 95%;
+  width: 720px;
+}
+.card {
+  border: 3px solid rgb(66, 41, 25);
+  width: 100%;
+  background-color: rgb(206, 119, 56);
+}
+
+footer{
+ background-color: rgb(206, 119, 56);
+}
